@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/* * * * * * * * * * * * * * * * * * *
+*  font-family:
+*     | "Material Icons"
+*     | "Material Icons Outlined"
+*     | "Material Icons Round"
+*     | "Material Icons Sharp"
+*     | "Material Icons Two Tone"
+*  font-style:
+*     | normal
+*     | italic
+*  font-weight:
+*     | 400
+*/
+
+@font-face
+   { font-family: "Material Icons"
+   ; font-style: normal
+   ; font-weight: 400
+   ; src: url("./font/material-icons.ttf")
+   }
+
+@font-face
+   { font-family: "Material Icons Outlined"
+   ; font-style: normal
+   ; font-weight: 400
+   ; src: url("./font/material-icons-outlined.otf")
+   }
+
+@font-face
+   { font-family: "Material Icons Round"
+   ; font-style: normal
+   ; font-weight: 400
+   ; src: url("./font/material-icons-round.otf")
+   }
+
+@font-face
+   { font-family: "Material Icons Sharp"
+   ; font-style: normal
+   ; font-weight: 400
+   ; src: url("./font/material-icons-sharp.otf")
+   }
+
+@font-face
+   { font-family: "Material Icons Two Tone"
+   ; font-style: normal
+   ; font-weight: 400
+   ; src: url("./font/material-icons-two-tone.otf")
+   }
+
+.material-icons,
+.material-icons-oulined,
+.material-icons-round,
+.material-icons-sharp,
+.material-icons-two-tone
+   { font-weight: normal
+   ; font-style: normal
+   ; font-size: 24px
+   ; display: inline-block
+   ; line-height: 1
+   ; text-transform: none
+   ; letter-spacing: normal
+   ; word-wrap: normal
+   ; white-space: nowrap
+   ; direction: ltr
+   ; -webkit-font-smoothing: antialiased
+   ; text-rendering: optimizeLegibility
+   ; -moz-osx-font-smoothing: grayscale
+   ; font-feature-settings: "liga"
+   ; -webkit-font-feature-settings: "liga"
+   ; -moz-font-feature-settings: "liga"
+   }
+
+.material-icons
+   { font-family: "Material Icons" }
+
+.material-icons-outlined
+   { font-family: "Material Icons Outlined" }
+
+.material-icons-round
+   { font-family: "Material Icons Round" }
+
+.material-icons-sharp
+   { font-family: "Material Icons Sharp" }
+
+.material-icons-two-tone
+   { font-family: "Material Icons Two Tone" }

@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* * * * * * * * * * * * * * * * * * *
+*  font-family:
+*     | "Source Sans Pro"
+*  font-style:
+*     | normal
+*     | italic
+*  font-weight:
+*     | 200
+*     | 300
+*     | 400
+*     | 600
+*     | 700
+*     | 900
+*/
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 200
+   ; font-style: normal
+   ; src: url("./font/source-sans-pro-extra-light.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 200
+   ; font-style: italic
+   ; src: url("./font/source-sans-pro-extra-light-italic.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 300
+   ; font-style: normal
+   ; src: url("./font/source-sans-pro-light.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 300
+   ; font-style: italic
+   ; src: url("./font/source-sans-pro-light-italic.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 400
+   ; font-style: normal
+   ; src: url("./font/source-sans-pro-regular.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 400
+   ; font-style: italic
+   ; src: url("./font/source-sans-pro-italic.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 600
+   ; font-style: normal
+   ; src: url("./font/source-sans-pro-semi-bold.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 600
+   ; font-style: italic
+   ; src: url("./font/source-sans-pro-semi-bold-italic.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 700
+   ; font-style: normal
+   ; src: url("./font/source-sans-pro-bold.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 700
+   ; font-style: italic
+   ; src: url("./font/source-sans-pro-bold-italic.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 900
+   ; font-style: normal
+   ; src: url("./font/source-sans-pro-black.ttf")
+   }
+
+@font-face
+   { font-family: "Source Sans Pro"
+   ; font-weight: 900
+   ; font-style: italic
+   ; src: url("./font/source-sans-pro-black-italic.ttf")
+   }
