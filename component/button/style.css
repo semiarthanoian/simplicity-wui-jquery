@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.simplicity
+   { /* namespace */ }
+
+.simplicity.button
+   { color: black
+   ; background: whitesmoke
+   ; border-bottom: 3px solid lightgray
+   ; font-family: Arial, sans-serif
+   ; letter-spacing: 1px
+   ; display: inline-block
+   ; max-width: 100%
+   ; cursor: pointer
+   }
+
+.simplicity.button:hover
+   { color: white
+   ; background: black
+   ; border: none
+   }
+
+.simplicity.button.normal
+   { font-size: 15px
+   ; line-height: 45px
+   ; height: 45px
+   ; padding: 0 27px
+   }
+
+.simplicity.button.large
+   { font-size: 18px
+   ; line-height: 54px
+   ; height: 54px
+   ; padding: 0 36px
+   }
